@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0
+}
+
+.the-object{
+	border: solid 1px black;
+	height: 100px;
+	transition: background-color 2.5s ease, width 2.5s ease; 
+}
+
+.object-width-100{
+	width: 100px;
+}
+
+.object-width-150{
+	width: 250px;
+}
+
+.object-width-200{
+	width: 400px;
+}
+
+.blue-background-color{
+	background-color: blue;
+}
+
+.green-background-color{
+	background-color: green;
+}
+
+.red-background-color{
+	background-color: red;
+}
+
+.controls{
+	padding: 20px;
+}
+
+#panel-div{
+	background-color: rebeccapurple;
+	height: 500px;
+	width: 500px;
+}
+
+#the-block{
+	height: 30px;
+	width: 30px;
+	background-color: deeppink;
+	border-radius: 50%;
+}
+
+#control-panel{
+	height: 200px;
+	width: 200px;
+	border: solid 1px black;
+	
+}
+
+#the-block{
+	position: relative;
+}
